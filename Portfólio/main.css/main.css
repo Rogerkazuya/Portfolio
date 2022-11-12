@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.664);
+
+}
+#navbarNav{
+    justify-content: right;
+}
+
+#port{
+    font-family: "inter";
+}
+
+ul li{
+    margin: 0px 50px 0px 50px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif; 
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+.nav-link { 
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.navbar-brand{
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.imagem-fundo{
+    height: auto;
+    background-image: url(../Imgs/fundo.png);
+}
+
+.menu-inicial{
+    display: flex;  
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu-inicial .imagem{
+    margin: 105px -100px 105px 15px ;
+    justify-content: center;
+}
+
+.menu-inicial .nome{
+    font-family: "inter";
+    font-style: italic;
+}
+.imagem h1{
+    margin: 0px 80px 20px 0px;
+}
+
+#perfil{
+    margin: 80px 80px 20px 0px;
+    width: 200px;
+    border-radius: 100rem;
+}
+
+#java{
+    width: 100px;
+}
+#typeScrip{
+    width: 80px;
+}
+#bootstrap{
+    width: 100px;
+}
+#github{
+    width: 130px;
+}
+.nome{
+    color: rgb(5, 4, 4);
+}
+.menu-lateral{
+    display: flex;
+    margin: -100px 0px 0px 50px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 50%;
+}
+
+.menu-lateral .paragrafo{ 
+    font-family: "inter";
+    font-size: 17px;
+    font-style: italic; 
+}
+
+.sobre-você{
+    display: flex;
+}
+.sobre-você div{
+    margin: 15px;
+}
+
+.sobre-você h4{
+    justify-content: flex-start;
+}
+#icone{
+    width: 50px;
+}
+
+.linguagens img {
+    width: 200px;
+    margin: 10px;
+}
+
+.col{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+#conhecimento-pouco{
+    display: flex;
+    height: 100vh;
+   
+}
+
+#conhecimento-pouco .estudando{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+.estudando p{
+    border: 1px solid white;
+    box-shadow: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel p{
+    color: whitesmoke;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
